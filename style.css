@@ -1,0 +1,60 @@
+h1{
+    margin: auto;
+    font-weight: bold;
+    -webkit-text-stroke: 1px rgb(50, 236, 243);
+    color: rgb(14, 14, 14);
+    padding: 10px;
+    text-decoration: underline;
+}
+img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin-left: 120px;
+
+}
+.general{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;  
+    
+}
+.bor{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(244, 243, 241);
+    margin: 10px;
+    text-align: center;
+    color: rgb(74, 25, 234);
+}
+span{
+    color: fuchsia;
+}
+ /* Бордеры для боксов */
+.box1{
+    border: 3px groove rgb(0, 255, 213);
+}
+.box2{
+    border: 3px dashed rgb(0, 255, 213);
+}
+.box3{
+    border: 3px double rgb(0, 255, 213);
+}
+.box4{
+    border: 3px dotted rgb(0, 255, 213);
+}
+.box5{
+    border: none;
+}
+.box6{
+    border: 3px solid  rgb(0, 255, 213);
+}
+.box7{
+    border: 3px inset rgb(0, 255, 213);
+}
+.box8{
+    border: 3px outset rgb(0, 255, 213);
+}
+.box9{
+    border: 3px ridge rgb(0, 255, 213);
+}
